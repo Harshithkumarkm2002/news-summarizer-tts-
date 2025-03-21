@@ -1,6 +1,10 @@
 📰 News Summarization & Hindi TTS Application
 🚀 A web-based application that extracts news articles, analyzes sentiment, and converts summaries into Hindi speech.
 
+GitHub Repository: "https://github.com/Harshithkumarkm2002/news-summarizer-tts-"
+Hugging Face Deployment: "https://huggingface.co/spaces/harshithk288/news-summarizer-tts/tree/main"
+Video Demo: "https://drive.google.com/file/d/1dQfFt2UiEW2NYy8cpvQdmRgtTo6AsrL0/view?usp=drive_link"
+
 📌 Features
 ✅ Extracts top 10 news articles related to a company
 ✅ Performs sentiment analysis (Positive, Negative, Neutral)
@@ -22,11 +26,13 @@
     python -m venv venv
     source venv/bin/activate  # On Mac/Linux
     venv\Scripts\activate     # On Windows
+    
 🔹 3. Install Dependencies
 
     pip install -r requirements.txt
 
 🔹 4. Run the Application
+
     streamlit run app.py
 
 📌 API Endpoints
