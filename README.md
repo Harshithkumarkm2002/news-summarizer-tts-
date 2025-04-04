@@ -4,21 +4,27 @@ GitHub Repository: "https://github.com/Harshithkumarkm2002/news-summarizer-tts-"
 
 📌 Features ✅ Extracts top 10 news articles related to a company ✅ Performs sentiment analysis (Positive, Negative, Neutral) ✅ Comparative Analysis of multiple articles ✅ Generates Hindi audio output using TTS ✅ User-friendly interface with Streamlit ✅ API-based architecture for smooth communication ✅ Deployed on Hugging Face Spaces
 
-📌 Installation Guide 🔹 1. Clone the Repository
+📌 Installation Guide 
+
+🔹 1. Clone the Repository
 
 git clone https://github.com/yourusername/news-summarizer-tts.git
 cd news-summarizer-tts
+
 🔹 2. Create a Virtual Environment
 
 python -m venv venv
 source venv/bin/activate  # On Mac/Linux
 venv\Scripts\activate     # On Windows
+
 🔹 3. Install Dependencies
 
 pip install -r requirements.txt
+
 🔹 4. Run the Application
 
 streamlit run app.py
+
 📌 API Endpoints Method Endpoint Description GET /fetch_news?company=Tesla Fetches top 10 news articles POST /analyze_sentiment Returns sentiment analysis of articles POST /generate_tts Converts summary to Hindi speech
 
 📌 Project Structure
