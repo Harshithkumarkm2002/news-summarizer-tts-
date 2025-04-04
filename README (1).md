@@ -45,11 +45,17 @@ POST	/generate_tts	Converts summary to Hindi speech
 📌 Project Structure
 
 📂 news-summarizer-tts
+
  ├── 📜 app.py               # Streamlit Frontend
+ 
  ├── 📜 api.py               # Backend API
+ 
  ├── 📜 utils.py             # Helper functions (Scraping, NLP, TTS)
+ 
  ├── 📜 requirements.txt     # Dependencies
+ 
  ├── 📜 README.md            # Documentation
+ 
  └── 📂 data/                # (Optional) Store fetched articles
  
 📌 Assumptions & Limitations
